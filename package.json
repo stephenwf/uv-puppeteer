@@ -9,6 +9,7 @@
     "umd"
   ],
   "scripts": {
+    "start": "node ./src/index.js",
     "build": "nwb build-web-module",
     "clean": "nwb clean-module",
     "test": "nwb test",
@@ -16,8 +17,11 @@
     "test:watch": "nwb test --server"
   },
   "dependencies": {
+    "mkdirp": "^0.5.1",
+    "puppeteer": "^0.13.0"
   },
   "devDependencies": {
+    "flow-bin": "^0.59.0",
     "nwb": "0.18.x"
   },
   "author": "",
