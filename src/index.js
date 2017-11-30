@@ -16,7 +16,7 @@ const mkdirp = require('mkdirp');
     return options.map(opt => ({ name: opt.innerText, manifest: opt.getAttribute('value') }))
   });
 
-  const from = 14;
+  const from = 0;
 
   manifests = manifests.slice(from)
 
